@@ -1,0 +1,10 @@
+08 - QUAL É O MENOR PESO ENTRE OS GAFANHOTOS MULHERES QUE NASCERAM FORA DO BRASIL E ENTRE 01/JAN/1990 E 31/DEZ/2000?
+
+**CÓDIGO RESPOSTA:
+
+SELECT MIN(peso),nome FROM gafanhotos
+WHERE sexo = 'F'
+AND nacionalidade <> 'Brasil'
+AND nascimento BETWEEN '1990-01-01' AND '2000-12-31';
+
+--> Mostra o nome e o peso da mulher que pesa menos dentro desse período de nascimentos.
