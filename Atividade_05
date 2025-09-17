@@ -1,0 +1,13 @@
+05 - LISTA COM NOME E NACIONALIDADE DE TODOS OS HOMENS QUE TÊM SILVA NO NOME, NÃO NASCERAM NO BRASIL E PESAM MENOS DE 100KG.
+
+**CÓDIGO RESPOSTA:
+
+SELECT nome, nacionalidade,peso FROM gafanhotos
+WHERE sexo = 'M'
+AND nacionalidade <> 'Brasil'
+AND nome LIKE '%SILVA%'
+AND peso <100
+ORDER BY nome;
+
+--> Mostra uma lista de homens não brasileiros, com sobrenome Silva e peso menor que 100kg. 
+Essa lista exibe nome, nacionalidade e peso, ordenados por nome.
