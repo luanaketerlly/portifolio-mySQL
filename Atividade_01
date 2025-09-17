@@ -1,0 +1,8 @@
+01 - LISTA COM NOME DE TODOS GAFANHOTOS.
+
+**CÓDIGO RESPOSTA:
+
+SELECT nome FROM gafanhotos
+ORDER BY nome;
+
+--> Exibe a lista de nomes ordenados.
