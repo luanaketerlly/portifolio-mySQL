@@ -1,0 +1,7 @@
+07 - QUAL É A MÉDIA DE PESO DOS GAFANHOTOS CADASTRADOS?
+
+**CÓDIGO RESPOSTA:
+
+SELECT AVG(peso) FROM gafanhotos;
+
+--> Exibe a média de peso da tabela.
