@@ -1,0 +1,9 @@
+02 - LISTA COM DADOS DE TODOS AQUELES QUE NASCERAM ENTRE 01/JAN/2000 e 31/DEZ/2015.
+
+**CÓDIGO RESPOSTA:
+
+SELECT * FROM gafanhotos
+WHERE nascimento BETWEEN '2000-01-01' AND '2015-12-31'
+ORDER BY nascimento;
+
+--> Mostra lista de nomes e dados dentro do período especificado no filtro de data de nascimento.
