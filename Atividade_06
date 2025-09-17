@@ -1,0 +1,10 @@
+06 - QUAL É A MAIOR ALTURA ENTRE GAFANHOTOS HOMENS QUE MORAM NO BRASIL?
+
+**CÓDIGO RESPOSTA:
+
+SELECT MAX(altura)FROM gafanhotos
+WHERE sexo ='M'
+AND nacionalidade = 'Brasil'
+ORDER BY nome;
+
+--> Mostra apenas a maior altura dentre os homens brasileiros.
