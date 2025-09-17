@@ -1,0 +1,11 @@
+04 - LISTA COM OS DADOS DE TODAS AS MULHERES QUE NASCERAM NO BRASIL E QUE TÊM SEU NOME INICIADO COM A LETRA J.
+
+**CÓDIGO RESPOSTA:
+
+SELECT * FROM gafanhotos 
+WHERE sexo = 'F' 
+AND nacionalidade = 'Bfrasil'
+AND nome LIKE 'J%'
+ORDER BY nome;
+
+--> Mostra a lista ordenada por nome de todas as mulheres brasileiras e com nome começado em J.
