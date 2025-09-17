@@ -1,0 +1,9 @@
+03 - LISTA COM NOME DE TODOS OS HOMENS QUE TRABALHAM COMO PROGRAMADORES.
+
+**CÓDIGO RESPOSTA:
+
+SELECT nome, sexo, profissao FROM gafanhotos 
+WHERE profissao = 'programador'
+ORDER BY nome;
+
+--> Mostra lista com nome, sexo e profissão apenas dos homens que são programadores; lista ordenada.
