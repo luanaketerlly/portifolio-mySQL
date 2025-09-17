@@ -50,7 +50,4 @@ Aqui você encontrará tanto os códigos SQL quanto a explicação de cada ativi
 O dump usado em todas as atividades está localizado em:  
 `dumps/meu_banco_dump.sql`  
 
-Para importar localmente no MySQL, use:
 
-```bash
-mysql -u seu_usuario -p nome_do_banco < dumps/meu_banco_dump.sql
