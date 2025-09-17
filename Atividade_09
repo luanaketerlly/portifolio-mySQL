@@ -1,0 +1,9 @@
+09 - QUANTOS GAFANHOTOS MULHERES TEM MAIS DE 1.90M DE ALTURA?
+
+**CÓDIGO RESPOSTA:
+
+SELECT COUNT (*) FROM gafanhotos
+WHERE sexo = 'F'
+AND altura > 1.90;
+
+--> Mostra a quantidade de mulheres com altura superior a 1.90m.
