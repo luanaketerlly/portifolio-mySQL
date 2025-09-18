@@ -1,0 +1,8 @@
+01 - LISTA COM AS PROFISSÕES DOS GAFANHOTOS E SEUS RESPECTIVOS QUANTITATIVOS:
+
+**CÓDIGO RESPOSTA:
+
+SELECT profissao, COUNT(nome) FROM gafanhotos
+GROUP BY profissao;
+
+--> Mostra a lista de profissõs cadastradas e a quantidade de pessoas em cada área.
