@@ -1,0 +1,9 @@
+02  -   QUANTOS GAFANHOTOS HOMENS E QUANTOS GAFANHOTOS MULHERES NASCERAM ACIMA DE 01/JAN/2005?:
+
+**CÓDIGO RESPOSTA:
+
+SELECT sexo, COUNT (*) FROM gafanhotos
+WHERE nascimento > '2005-01-01'
+GROUP BY sexo;
+
+--> Mostra quantos homens / mulheres nasceram após a data especificada.
