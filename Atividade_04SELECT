@@ -1,0 +1,9 @@
+04 - LISTA AGRUPADA POR ALTURA DOS GAFANHOTOS, MOSTRANDO QUANTAS PESSOAS PESAM MAIS DE 100KG E QUE ESTÃO ACIMA DA MÉDIA DE ALTURA DE TODOS OS CADASTRADOS.
+
+**CÓDIGO RESPOSTA:
+
+SELECT COUNT(*) FROM gafanhotos 
+WHERE peso >100
+AND altura > (SELECT AVG (altura) FROM gafanhotos);
+
+--> Mostra o total de gafanhotos acima de 100kg e acima da média de altura.
