@@ -1,0 +1,11 @@
+03 - LISTA COM OS GAFANHOTOS QUE NASCERAM FORA DO BRASIL, MOSTRANDO O PAÍS DE ORIGEM E O TOTAL DE PESSOAS NASCIDAS LÁ. APENAS PAÍSES COM MAIS DE 3 GAFANHOTOS.
+
+**CÓDIGO RESPOSTA:
+
+SELECT nacionalidade, COUNT(*) FROM gafanhotos 
+WHERE nacionalidade <> 'Brasil'
+GROUP BY nacionalidade
+HAVING COUNT (*) > 3
+ORDER BY nacionalidade;
+
+--> Mostra os nomes dos países onde mais de 3 gafanhotos nasceram.
